@@ -13,9 +13,9 @@
 // #### 
 // Hardware-specific motor calibration constants.
 // Run calibration once at startup, then update these constants with the calibration results.
-static const float ZERO_ELECTRICAL_OFFSET = 2.77;
-static const Direction FOC_DIRECTION = Direction::CW;
-static const int MOTOR_POLE_PAIRS = 12;
+static const float ZERO_ELECTRICAL_OFFSET = 4.64;
+static const Direction FOC_DIRECTION = Direction::CCW;
+static const int MOTOR_POLE_PAIRS = 7;
 // ####
 
 

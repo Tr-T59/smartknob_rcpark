@@ -20,6 +20,8 @@ void setup() {
   display_task.setLogger(&interface_task);
   display_task.begin();
 
+  //motor_task.runCalibration();
+
   // Connect display to motor_task's knob state feed
   motor_task.addListener(display_task.getKnobStateQueue());
   #endif
